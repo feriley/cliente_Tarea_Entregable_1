@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#contenedorCartas {
+    background-color: blue;
+    padding: 2vh 1vw;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
+.carta {
+    background-color: yellow;
+    width: 30vw;
+    height: 30vh;
+}
+
+.letraRoja {
+    color: red;
+}
+
+.fondoRojo {
+    background-color: red;
+}
